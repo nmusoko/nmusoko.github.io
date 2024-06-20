@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dishes</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <meta name=" description" content="A brief description">
+    <meta name="'author" content="Gourmets Eats">
+</head>
+<body>
+    <header>
+    <nav>
+        <a href="index.html"><img src="logo-no-background.png" width="20%"></a>
+        <div class="nav-links" id="navLinks">  
+            <i class="fa fa-close" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="dishes.html">DISHES</a></li>
+                <li><a href="about.html">ABOUT US </a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+</header>
+<div class="container">
+
+    <section class="menu" id="menu">
+
+        <div class="menu-card">
+            <h1 class="menu-title">Gourmet Delights</h1>
+    
+            <h2>Starters</h2>
+            <div class="menu-item"><h3>Bruschetta</h3><p>Grilled bread with tomatoes, olive oil, garlic.</p><span class="price">$5.99</span></div>
+            <div class="menu-item"><h3>Garlic Prawns</h3><p>Sautéed prawns in a garlic butter sauce.</p><span class="price">$8.50</span></div>
+            <div class="menu-item"><h3>Stuffed Mushrooms</h3><p>Mushrooms filled with herbs and cheese.</p><span class="price">$7.25</span></div>
+            <div class="menu-item"><h3>Caprese Salad</h3><p>Fresh tomatoes, mozzarella, basil, and balsamic glaze.</p><span class="price">$6.99</span></div>
+            <div class="menu-item"><h3>Chicken Wings</h3><p>Spicy glazed wings with blue cheese dip.</p><span class="price">$9.50</span></div>
+    
+            <h2>Main Courses</h2>
+            <div class="menu-item"><h3>Grilled Salmon</h3><p>Served with quinoa salad and lemon herb sauce.</p><span class="price">$15.99</span></div>
+            <div class="menu-item"><h3>Beef Lasagna</h3><p>Layered pasta with beef, cheese, and tomato sauce.</p><span class="price">$12.50</span></div>
+            <div class="menu-item"><h3>Margherita Pizza</h3><p>Classic pizza with tomatoes, mozzarella, and basil.</p><span class="price">$11.00</span></div>
+            <div class="menu-item"><h3>Thai Green Curry</h3><p>Spicy green curry with chicken and jasmine rice.</p><span class="price">$13.75</span></div>
+            <div class="menu-item"><h3>Burger Deluxe</h3><p>Beef burger with cheese, lettuce, tomato, and special sauce.</p><span class="price">$10.99</span></div>
+    
+            <h2>Desserts</h2>
+            <div class="menu-item"><h3>Cheesecake</h3><p>Classic New York style cheesecake with berry coulis.</p><span class="price">$6.50</span></div>
+            <div class="menu-item"><h3>Chocolate Brownie</h3><p>Warm brownie with vanilla ice cream and chocolate sauce.</p><span class="price">$5.75</span></div>
+            <div class="menu-item"><h3>Tiramisu</h3><p>Traditional Italian coffee-flavored dessert.</p><span class="price">$7.00</span></div>
+            <div class="menu-item"><h3>Lemon Tart</h3><p>Sweet tart with a tangy lemon filling.</p><span class="price">$6.25</span></div>
+            <div class="menu-item"><h3>Apple Pie</h3><p>Classic pie with a flaky crust and cinnamon apple filling.</p><span class="price">$5.99</span></div>
+    
+            <h2>Beverages</h2>
+            <div class="menu-item"><h3>Cappuccino</h3><p>Rich and bold espresso topped with frothy milk.</p><span class="price">$3.50</span></div>
+            <div class="menu-item"><h3>Fresh Lemonade</h3><p>Homemade lemonade with a touch of mint.</p><span class="price">$2.99</span></div>
+            <div class="menu-item"><h3>Mojito</h3><p>Refreshing mint cocktail with rum, lime, and soda.</p><span class="price">$6.00</span></div>
+            <div class="menu-item"><h3>Red Wine</h3><p>Selection of our finest red wines.</p><span class="price">$7.00 per glass</span></div>
+            <div class="menu-item"><h3>Sparkling Water</h3><p>Natural mineral water with a crisp, clean taste.</p><span class="price">$1.99</span></div>
+        </div>
+    </body>
+    </html>
+    
+    </section>
+
+</div>
+<footer>
+    <div class="footer-container">
+        <div class="footer-logo">
+            <img src="A New Design (1).png" alt="Logo">
+        </div>
+        <div class="footer-text">
+            © 2023 Gourmets Eats . All Rights Reserved.
+        </div>
+    </div>
+</footer>
+
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+</script> 
+</body>
+</html>

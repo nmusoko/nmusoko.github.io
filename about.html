@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gourmets Eats</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <meta name=" description" content="A brief description">
+    <meta name="'author" content="Gourmet Eats">
+</head>
+<body>
+    <header>
+    <nav>
+        <a href="index.html"><img src="logo-no-background.png" width="20%"></a>
+        <div class="nav-links" id="navLinks">  
+            <i class="fa fa-close" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="dishes.html">DISHES</a></li>
+                <li><a href="about.html">ABOUT US </a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+</header>
+<section>
+<div class="section">
+    <div class="container">
+        <div class="content-section">
+            <div class="title">
+                <h1>Meet our Chef </h1>
+            </div>
+            <div class="content">
+                <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit natus dolor cumque?</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit natus dolor cumque?
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit natus dolor cumque?
+                </p>
+                <div class="button">
+                    <a href="">Learn More</a>
+                </div>
+            </div>
+        </div>
+        <div class="image-section">
+            <img src="images/A New Design (1).png">
+         </div>
+    </div>
+</div>
+</section>
+<section class="Meet-Team">
+    <div class="wrapper">
+        <h1>Our Team</h1>
+        <div class="team">
+          <div class="team_member">
+            <div class="team_img">
+              <img src="https://i.imgur.com/2pGPLrl.png" alt="Team_image">
+            </div>
+            <h3>Henry Alunga</h3>
+            <p class="role">Support Lead</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est quaerat tempora, voluptatum quas facere dolorum aut cumque nihil nulla harum nemo distinctio quam blanditiis dignissimos.</p>
+          </div>
+          <div class="team_member">
+            <div class="team_img">
+              <img src="https://i.imgur.com/jQj1I8E.png" alt="Team_image">
+            </div>
+            <h3>Kevin Madesu</h3>
+            <p class="role">Manager</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est quaerat tempora, voluptatum quas facere dolorum aut cumque nihil nulla harum nemo distinctio quam blanditiis dignissimos.</p></div>
+          <div class="team_member">
+            <div class="team_img">
+              <img src="https://i.imgur.com/2Necikc.png" alt="Team_image">
+            </div>
+            <h3>Noe Musoko</h3>
+            <p class="role">Area Manager</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est quaerat tempora, voluptatum quas facere dolorum aut cumque nihil nulla harum nemo distinctio quam blanditiis dignissimos.</p>
+          </div>
+        </div>
+      </div>
+</section>
+<footer>
+    <div class="footer-container">
+        <div class="footer-logo">
+            <img src="A New Design (1).png" alt="Logo">
+        </div>
+        <div class="footer-text">
+            © 2023 Gourmets Eats . All Rights Reserved.
+        </div>
+    </div>
+</footer>
+
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+</script> 
+</body>
+</html>
